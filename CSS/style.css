@@ -1,0 +1,49 @@
+.firstparag {
+  font-size: 70px;
+  margin: 200px 0 0 275px;
+  color: #000;
+}
+.secondparag {
+  margin: -12px 0 0 275px;
+  color: #000;
+}
+.button,
+.button2 {
+  width: 435px;
+  height: 50px;
+  border-radius: 8px;
+  margin-left: 39px;
+  font-family: "Indie Flower", cursive;
+  font-size: 30px;
+  word-spacing: 10px;
+  color: #000;
+  background-color: #fff;
+  border: 1px solid #000;
+}
+.button:hover,
+.button2:hover {
+  color: #fff;
+  background-color: #000;
+  border: 1px solid #fff;
+  transition: 0.3s;
+  cursor: pointer;
+}
+.button {
+  margin-top: 320px;
+}
+.button2 {
+  margin-top: 30px;
+}
+.fa {
+  text-decoration: none;
+  margin-top: 100px;
+}
+a.fa.fa-twitter,
+a.fa.fa-instagram,
+a.fa.fa-github,
+a.fa.fa-google {
+  font-size: 30px;
+  color: #000;
+  width: 65px;
+  text-align: center;
+}
