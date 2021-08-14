@@ -85,9 +85,25 @@ a.navlink:hover:after {
     display: none;
   }
   .ShowOnMobile {
-    display: contents;
-    color: black;
-    font-size: 25px;
-    margin-top: 250px;
+    display: block;
+  }
+  img.mobileimg {
+    width: 35%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    border-radius: 20px;
+    box-shadow: 20px 20px rgb(0 0 0 / 5%);
+  }
+  .moheader,
+  .moheader2 {
+    color: #000;
+    font-size: 15px;
+    display: inline-flex;
+    margin-left: 5px;
+  }
+  .moheader {
+    border-right: 2px solid #000;
+    width: 70px;
   }
 }

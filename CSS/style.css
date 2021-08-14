@@ -47,3 +47,47 @@ a.fa.fa-google {
   width: 65px;
   text-align: center;
 }
+
+@media (max-width: 1400px) {
+  .HideOnMobile {
+    display: none;
+  }
+  .ShowOnMobile {
+    display: block;
+  }
+  .mofirstparag {
+    color: #000;
+    font-size: 35px;
+    text-align: center;
+    margin-top: 22px;
+  }
+  .mosecondparag {
+    color: #000;
+    text-align: center;
+    margin-top: -35px;
+  }
+  .mobutton1,
+  .mobutton2 {
+    font-family: "Indie Flower", cursive;
+    background-color: #fff;
+    border: 1px solid #000;
+    color: #000;
+    width: 69%;
+    height: 39px;
+    border-radius: 8px;
+    font-size: 21px;
+    margin: 55px auto 0 auto;
+  }
+  .btn {
+    text-decoration: none;
+  }
+  .mobutton2 {
+    margin-top: 30px;
+  }
+  .mosocial {
+    margin: 50px 10px 0 10px;
+  }
+  .msocial {
+    text-align: center;
+  }
+}

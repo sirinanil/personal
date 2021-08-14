@@ -28,3 +28,48 @@ p {
 .social {
   text-align: center;
 }
+@media (max-width: 1400px) {
+  .HideOnMobile {
+    display: none;
+  }
+  .ShowOnMobile {
+    display: block;
+  }
+  .moabheader {
+    color: #000;
+    font-size: 31px;
+    text-align: center;
+  }
+  .moabparag {
+    color: #000;
+    text-align: left;
+    text-indent: 20px;
+    margin-left: 20px;
+    margin-right: 0;
+    font-size: 20px;
+  }
+  .mosocial {
+    margin: 20px 10px 0 10px;
+  }
+  .msocial {
+    text-align: center;
+  }
+  .btn {
+    margin-left: 35px;
+    background-color: #fff;
+    border: none;
+    font-size: 27px;
+    position: absolute;
+    margin-top: 5px;
+    right: 15px;
+  }
+  .donno {
+    display: inline-flex;
+  }
+  .donno2 {
+    margin-left: 11px;
+  }
+  .fa-home {
+    margin-top: 0;
+  }
+}
