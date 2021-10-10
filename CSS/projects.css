@@ -1,0 +1,150 @@
+.procontainer,
+.contactconteiner {
+  width: 90%;
+  margin: auto;
+  position: relative;
+  margin-top: 20px;
+  height: 1300px;
+}
+.contactconteiner {
+  height: 700px;
+}
+h2.projects,
+h2.contact {
+  font-size: 40px;
+  position: absolute;
+  left: 15%;
+  top: 0%;
+}
+p.club,
+p.club2,
+p.club3 {
+  position: absolute;
+  font-size: 20px;
+  font-weight: bold;
+  left: 15.1%;
+  top: 13%;
+}
+p.clubparag,
+p.clubparag2,
+p.clubparag3 {
+  position: absolute;
+  font-size: 20px;
+  left: 15.1%;
+  top: 17%;
+}
+button.button,
+button.button2,
+button.button3 {
+  height: 50px;
+  width: 140px;
+  position: absolute;
+  left: 15.1%;
+  top: 25%;
+  font-size: 18px;
+  background-color: white;
+  border: 2px solid black;
+  color: black;
+  transition: 0.5s;
+  cursor: pointer;
+}
+button.button:hover,
+button.button2:hover,
+button.button3:hover {
+  background-color: black;
+  color: yellow;
+}
+button.button2:hover {
+  color: rgb(27, 197, 27);
+}
+button.button3:hover {
+  color: rgb(255, 210, 158);
+}
+img.volley,
+img.volley2,
+img.volley3 {
+  position: absolute;
+  width: 30%;
+  left: 60%;
+  top: 12%;
+}
+img.volley2 {
+  top: 40%;
+}
+img.volley3 {
+  top: 72%;
+}
+p.club2 {
+  top: 41%;
+}
+p.clubparag2 {
+  top: 45%;
+}
+button.button2 {
+  top: 53%;
+}
+p.club3 {
+  top: 73%;
+}
+p.clubparag3 {
+  top: 77%;
+}
+button.button3 {
+  top: 85%;
+}
+@media screen and (max-width: 1199px) {
+  h2.projects,
+  h2.contact {
+    font-size: 30px;
+    left: 0%;
+  }
+  p.club,
+  p.club2,
+  p.club3 {
+    left: 0%;
+    top: 7%;
+  }
+  p.clubparag,
+  p.clubparag2,
+  p.clubparag3 {
+    left: 0%;
+    top: 10%;
+  }
+  button.button,
+  button.button2,
+  button.button3 {
+    left: 0%;
+    top: 17%;
+  }
+  img.volley,
+  img.volley2,
+  img.volley3 {
+    width: 100%;
+    left: 0%;
+    top: 24%;
+  }
+  p.club2 {
+    top: 40%;
+  }
+  p.clubparag2 {
+    top: 43%;
+  }
+  button.button2 {
+    top: 50%;
+  }
+  img.volley2 {
+    top: 57%;
+  }
+  p.club3 {
+    top: 73%;
+  }
+  p.clubparag3 {
+    top: 76%;
+  }
+  button.button3 {
+    top: 83%;
+  }
+  img.volley3 {
+    top: 90%;
+  }
+}

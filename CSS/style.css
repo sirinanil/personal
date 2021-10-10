@@ -1,93 +1,311 @@
-.firstparag {
-  font-size: 70px;
-  margin: 200px 0 0 275px;
-  color: #000;
+body {
+  background-color: white;
+  margin: 0;
+  padding: 0;
+  font-family: "Saira", sans-serif;
 }
-.secondparag {
-  margin: -12px 0 0 275px;
-  color: #000;
-}
-.button,
-.button2 {
-  width: 435px;
-  height: 50px;
-  border-radius: 8px;
-  margin-left: 39px;
-  font-family: "Indie Flower", cursive;
-  font-size: 30px;
-  word-spacing: 10px;
-  color: #000;
-  background-color: #fff;
-  border: 1px solid #000;
-}
-.button:hover,
-.button2:hover {
-  color: #fff;
-  background-color: #000;
-  border: 1px solid #fff;
-  transition: 0.3s;
-  cursor: pointer;
-}
-.button {
-  margin-top: 320px;
-}
-.button2 {
-  margin-top: 30px;
-}
-.fa {
+a.headera {
   text-decoration: none;
-  margin-top: 100px;
+  color: black;
 }
-a.fa.fa-twitter,
-a.fa.fa-instagram,
-a.fa.fa-github,
-a.fa.fa-google {
-  font-size: 30px;
-  color: #000;
-  width: 65px;
+span.circle {
+  height: 25px;
+  width: 25px;
+  background-color: rgb(184, 223, 11);
+  border-radius: 50%;
+  display: inline-block;
+}
+h1.header1 {
+  margin-left: 30px;
+  font-size: 25px;
+}
+span.thin {
+  font-size: 16px;
+}
+a.headera:hover {
+  color: rgb(168, 170, 52);
+}
+nav.navbar {
+  margin-left: 80%;
+  margin-top: -43px;
+}
+a.nava,
+a.nava2,
+a.nava3 {
+  text-decoration: none;
+  color: black;
+  font-weight: 600;
+  margin-right: 15px;
+}
+a.nava:hover {
+  color: rgb(184, 223, 11);
+}
+a.nava2:hover {
+  color: darkorange;
+}
+a.nava3:hover {
+  color: rgb(255, 230, 0);
+}
+img.img {
+  width: 50%;
+  border-radius: 50%;
+  height: 500px;
+  object-fit: cover;
+  position: absolute;
+  top: 75px;
+}
+.container {
+  width: 50%;
+  position: relative;
+  height: 590px;
+  margin: auto;
+  margin-top: 70px;
+}
+h2.hello {
+  position: absolute;
+  right: 30%;
+  font-size: 55px;
+  top: 33px;
+  font-weight: bold;
+}
+h3.about {
+  position: absolute;
+  right: 29.5%;
+  top: 155px;
+}
+p.aboutp {
+  width: 36%;
+  position: absolute;
+  right: 7.2%;
+  font-size: 21px;
+  top: 208px;
+}
+.trial,
+.trial2,
+.trial3 {
+  height: 140px;
+  width: 140px;
+  background-color: rgb(184, 223, 11);
+  border-radius: 50%;
+  position: absolute;
+  right: 30%;
+  top: 385px;
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
   text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: 0.5s;
+  border: 1px solid black;
 }
-
-@media (max-width: 1400px) {
-  .HideOnMobile {
+.trial:hover {
+  color: rgb(184, 223, 11);
+  background-color: black;
+  border: 1px solid white;
+}
+a.trial2 {
+  right: 14%;
+  background-color: darkorange;
+}
+a.trial3 {
+  right: -19px;
+  background-color: yellow;
+}
+a.trial2:hover {
+  color: darkorange;
+  background-color: black;
+  border: 1px solid white;
+}
+a.trial3:hover {
+  color: yellow;
+  background-color: black;
+  border: 1px solid white;
+}
+.info {
+  border-top: 2px solid #e1e1e1;
+  width: 90%;
+  margin: auto;
+  margin-top: 160px;
+  height: 200px;
+  position: relative;
+}
+p.phone,
+p.email,
+p.social {
+  position: absolute;
+  font-weight: bold;
+  font-size: 25px;
+  left: 0%;
+  top: 0;
+}
+p.created {
+  position: absolute;
+  right: 0;
+  top: 0;
+  font-weight: 100;
+  font-size: 15px;
+}
+p.email {
+  left: 30%;
+}
+p.social {
+  left: 60%;
+}
+p.email2 {
+  position: absolute;
+  top: 70px;
+  left: 30%;
+  font-size: 20px;
+}
+p.phone2 {
+  position: absolute;
+  top: 70px;
+  font-size: 20px;
+}
+a.fa {
+  position: absolute;
+  top: 91px;
+  font-size: 20px;
+  left: 60%;
+  text-decoration: none;
+  color: black;
+}
+a.fa.fa-twitter {
+  left: 63%;
+}
+a.fa.fa-github {
+  left: 66%;
+}
+@media screen and (max-width: 1770px) {
+  .container {
+    width: 55%;
+  }
+}
+@media screen and (max-width: 1610px) {
+  .container {
+    width: 60%;
+  }
+}
+@media screen and (max-width: 1470px) {
+  .container {
+    width: 65%;
+  }
+}
+@media screen and (max-width: 1350px) {
+  .container {
+    width: 70%;
+  }
+}
+@media screen and (max-width: 1260px) {
+  .container {
+    width: 75%;
+  }
+}
+@media screen and (max-width: 1199px) {
+  .navbar {
     display: none;
   }
-  .ShowOnMobile {
-    display: block;
+  span.circle {
+    height: 20px;
+    width: 20px;
   }
-  .mofirstparag {
-    color: #000;
-    font-size: 35px;
-    text-align: center;
-    margin-top: 22px;
+  h1.header1 {
+    font-size: 20px;
   }
-  .mosecondparag {
-    color: #000;
-    text-align: center;
-    margin-top: -35px;
+  span.thin {
+    font-size: 12px;
   }
-  .mobutton1,
-  .mobutton2 {
-    font-family: "Indie Flower", cursive;
-    background-color: #fff;
-    border: 1px solid #000;
-    color: #000;
-    width: 69%;
-    height: 39px;
-    border-radius: 8px;
+  .container {
+    width: 100%;
+    margin-top: 0;
+  }
+  h2.hello {
+    left: 30px;
+    top: -40px;
+  }
+  h3.about {
+    position: absolute;
+    top: 70px;
+    left: 33px;
+  }
+  p.aboutp {
+    position: absolute;
     font-size: 21px;
-    margin: 55px auto 0 auto;
+    top: 115px;
+    left: 30px;
+    width: 80%;
   }
-  .btn {
+  .trial,
+  .trial2,
+  .trial3 {
+    height: 80px;
+    width: 80px;
+    background-color: rgb(184, 223, 11);
+    border-radius: 50%;
+    position: absolute;
+    top: 340px;
     text-decoration: none;
-  }
-  .mobutton2 {
-    margin-top: 30px;
-  }
-  .mosocial {
-    margin: 50px 10px 0 10px;
-  }
-  .msocial {
+    color: black;
+    font-weight: bold;
     text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.5s;
+    border: 1px solid black;
+    left: 25px;
+  }
+  a.trial2 {
+    background-color: darkorange;
+    left: 115px;
+  }
+  a.trial3 {
+    background-color: yellow;
+    left: 205px;
+  }
+  img.img {
+    width: 85%;
+    height: 295px;
+    top: 435px;
+    left: 7%;
+  }
+  p.phone,
+  p.email,
+  p.social {
+    font-size: 17px;
+  }
+  p.phone2 {
+    font-size: 17px;
+    top: 27px;
+  }
+  p.email {
+    left: 0%;
+    top: 65px;
+  }
+  p.email2 {
+    top: 92px;
+    left: 0%;
+    font-size: 17px;
+  }
+  p.social {
+    left: 0%;
+    top: 125px;
+  }
+  a.fa {
+    top: 175px;
+    font-size: 20px;
+    left: 0%;
+  }
+  a.fa.fa-twitter {
+    left: 13%;
+  }
+  a.fa.fa-github {
+    left: 26%;
+  }
+  p.created {
+    top: 200px;
+    left: 0;
   }
 }

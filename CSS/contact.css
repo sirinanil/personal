@@ -1,0 +1,97 @@
+p.contentparag {
+  position: absolute;
+  left: 15%;
+  top: 11%;
+  font-size: 19px;
+}
+p.conphone,
+p.conemail {
+  font-size: 19px;
+  font-weight: bold;
+  position: absolute;
+  left: 15%;
+  top: 27%;
+}
+p.conemail {
+  top: 45%;
+}
+form.form {
+  position: absolute;
+  right: 20%;
+  top: 10%;
+  width: 350px;
+}
+input#fname {
+  height: 40px;
+  font-size: 20px;
+}
+input#fname,
+input#lname,
+input#email,
+textarea#message,
+input.submit {
+  position: absolute;
+}
+input#lname {
+  top: 58px;
+  height: 40px;
+  font-size: 20px;
+}
+input#email {
+  top: 116px;
+  font-size: 20px;
+  height: 40px;
+}
+textarea#message {
+  top: 180px;
+  font-size: 20px;
+}
+input.submit {
+  top: 280px;
+  font-size: 20px;
+  height: 140px;
+  border-radius: 50%;
+  width: 140px;
+  left: 360px;
+  transition: 0.5s;
+  border: 1px solid black;
+  background-color: #f7adf6;
+  cursor: pointer;
+}
+input.submit:hover {
+  color: #f7adf6;
+  background-color: black;
+  border: 1px solid white;
+}
+input#fname:hover,
+input#lname:hover,
+input#email:hover,
+textarea#message:hover {
+  border: 2px solid black;
+}
+@media screen and (max-width: 1199px) {
+  p.contentparag {
+    top: 11%;
+  }
+  p.conphone {
+    top: 23%;
+  }
+  p.conemail {
+    top: 35%;
+  }
+  form.form {
+    position: absolute;
+    top: 50%;
+    width: 350px;
+    left: 15%;
+  }
+  textarea#message {
+    left: -9%;
+  }
+  input.submit {
+    top: 431px;
+    height: 70px;
+    width: 70px;
+    left: -32px;
+  }
+}

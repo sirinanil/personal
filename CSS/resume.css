@@ -1,0 +1,125 @@
+h2.resume,
+h2.education,
+h2.skill {
+  font-size: 25px;
+  font-weight: bold;
+  position: absolute;
+  left: 15%;
+  top: 13%;
+}
+h2.resume {
+  font-size: 40px;
+  top: 5%;
+}
+p.work {
+  font-size: 25px;
+  position: absolute;
+  left: 15%;
+  top: 35%;
+}
+.workexperience,
+.educationcon,
+.skills {
+  position: relative;
+  width: 90%;
+  margin: auto;
+  height: 240px;
+  border-bottom: 2px solid #e1e1e1;
+}
+p.work2 {
+  font-size: 25px;
+  font-weight: bold;
+  position: absolute;
+  left: 60%;
+  top: 35%;
+}
+p.school,
+p.school3 {
+  position: absolute;
+  top: 20%;
+  left: 60%;
+}
+p.school2,
+p.school4 {
+  font-size: 25px;
+  font-weight: bold;
+  position: absolute;
+  left: 70%;
+  top: 13%;
+}
+p.school3 {
+  top: 65%;
+}
+.educationcon {
+  height: 350px;
+}
+p.school4 {
+  top: 60%;
+}
+h2.education {
+  font-weight: normal;
+}
+h2.skill {
+  font-weight: normal;
+}
+.skills {
+  border-bottom: none;
+  height: 170px;
+}
+ul.ul {
+  font-size: 25px;
+  font-weight: bold;
+  position: absolute;
+  top: 10%;
+  left: 69%;
+}
+@media screen and (max-width: 1199px) {
+  h2.resume,
+  h2.education,
+  h2.skill {
+    left: 0%;
+  }
+  p.work {
+    left: 0%;
+  }
+  h2.resume {
+    font-size: 30px;
+  }
+  p.work {
+    font-size: 20px;
+    top: 65px;
+  }
+  p.work2 {
+    font-size: 20px;
+    left: 60%;
+    top: 65px;
+  }
+  h2.education {
+    font-size: 20px;
+  }
+  p.school2,
+  p.school4 {
+    font-size: 15px;
+    left: 73%;
+    top: 25%;
+  }
+  p.school4 {
+    top: 75%;
+  }
+  p.school,
+  p.school3 {
+    top: 25%;
+    left: 37%;
+  }
+  p.school3 {
+    top: 75%;
+  }
+  h2.skill {
+    font-size: 20px;
+  }
+  ul.ul {
+    font-size: 15px;
+    top: 10%;
+    left: 55%;
+  }
+}
