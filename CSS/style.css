@@ -11,7 +11,7 @@ a.headera {
 span.circle {
   height: 25px;
   width: 25px;
-  background-color: rgb(184, 223, 11);
+  background-color: black;
   border-radius: 50%;
   display: inline-block;
 }
@@ -85,7 +85,7 @@ p.aboutp {
 .trial3 {
   height: 140px;
   width: 140px;
-  background-color: rgb(184, 223, 11);
+  background-color: black;
   border-radius: 50%;
   position: absolute;
   right: 30%;
@@ -99,6 +99,7 @@ p.aboutp {
   justify-content: center;
   transition: 0.5s;
   border: 1px solid black;
+  color: white;
 }
 .trial:hover {
   color: rgb(184, 223, 11);
@@ -107,11 +108,11 @@ p.aboutp {
 }
 a.trial2 {
   right: 14%;
-  background-color: darkorange;
+  background-color: black;
 }
 a.trial3 {
   right: -19px;
-  background-color: yellow;
+  background-color: black;
 }
 a.trial2:hover {
   color: darkorange;
