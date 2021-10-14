@@ -60,9 +60,9 @@ input.submit {
   color: white;
 }
 input.submit:hover {
-  color: #f7adf6;
-  background-color: black;
-  border: 1px solid white;
+  color: black;
+  background-color: white;
+  border: 1px solid black;
 }
 input#fname:hover,
 input#lname:hover,

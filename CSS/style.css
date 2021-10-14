@@ -37,14 +37,10 @@ a.nava3 {
   font-weight: 600;
   margin-right: 15px;
 }
-a.nava:hover {
-  color: rgb(184, 223, 11);
-}
-a.nava2:hover {
-  color: darkorange;
-}
+a.nava:hover,
+a.nava2:hover,
 a.nava3:hover {
-  color: rgb(255, 230, 0);
+  color: rgb(92, 88, 88);
 }
 img.img {
   width: 50%;
@@ -85,7 +81,7 @@ p.aboutp {
 .trial3 {
   height: 140px;
   width: 140px;
-  background-color: black;
+  background-color: white;
   border-radius: 50%;
   position: absolute;
   right: 30%;
@@ -97,33 +93,24 @@ p.aboutp {
   display: flex;
   align-items: center;
   justify-content: center;
-  transition: 0.5s;
+  transition: 0.7s;
   border: 1px solid black;
-  color: white;
+  color: black;
 }
-.trial:hover {
-  color: rgb(184, 223, 11);
+.trial:hover,
+a.trial2:hover,
+a.trial3:hover {
+  color: white;
   background-color: black;
-  border: 1px solid white;
+  border: 1px solid black;
 }
 a.trial2 {
   right: 14%;
-  background-color: black;
 }
 a.trial3 {
   right: -19px;
-  background-color: black;
 }
-a.trial2:hover {
-  color: darkorange;
-  background-color: black;
-  border: 1px solid white;
-}
-a.trial3:hover {
-  color: yellow;
-  background-color: black;
-  border: 1px solid white;
-}
+
 .info {
   border-top: 2px solid #e1e1e1;
   width: 90%;
